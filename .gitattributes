@@ -1,0 +1,31 @@
+# Normalise line endings
+* text=auto
+
+# Text formats KiCad and data files use
+*.kicad_pcb text
+*.kicad_sch text
+*.kicad_pro text
+*.csv       text
+
+# --- Git LFS (prepared, NOT enabled yet) ---
+# To enable: install git-lfs, run `git lfs install`, then uncomment the lines
+# below and run `git add --renormalize .` before committing.
+#*.jpg  filter=lfs diff=lfs merge=lfs -text
+#*.jpeg filter=lfs diff=lfs merge=lfs -text
+#*.png  filter=lfs diff=lfs merge=lfs -text
+#*.mp4  filter=lfs diff=lfs merge=lfs -text
+#*.mov  filter=lfs diff=lfs merge=lfs -text
+#*.webm filter=lfs diff=lfs merge=lfs -text
+#*.pdf  filter=lfs diff=lfs merge=lfs -text
+#*.zip  filter=lfs diff=lfs merge=lfs -text
+#*.step filter=lfs diff=lfs merge=lfs -text
+#*.stl  filter=lfs diff=lfs merge=lfs -text
+#measurements/raw/**/*.wav filter=lfs diff=lfs merge=lfs -text
+#measurements/raw/**/*.bin filter=lfs diff=lfs merge=lfs -text
+
+# Binary files (until LFS is enabled)
+*.jpg  binary
+*.jpeg binary
+*.png  binary
+*.pdf  binary
+*.mp4  binary

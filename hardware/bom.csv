@@ -1,0 +1,14 @@
+ref,qty,part,description,supplier,status,notes
+HOST1,1,Clockwork uConsole,Handheld host and display,ClockworkPi,have,Raspberry Pi CM5 8GB Lite; Rex's Debian 12 Bookworm lite (6.12)
+U1,1,IPEM PiHat Lite,ATM90E36 3-phase metering board,,have,
+MCU1,1,Raspberry Pi Pico,Front-end MCU (SPI to ATM90E36; USB to host),,have,
+CT1-CT3,3,Iron-core split CT,Current sensing L1/L2/L3,,have,type (current or voltage output) and ratio to document
+CT4,1,Iron-core split CT,Neutral current (optional),,idea,
+TR1-TR3,3,230V/9V PCB transformer,Voltage sensing L1/L2/L3,,have,untested; must be safety-isolating (EN 61558-2-6)
+F1-F4,4,Fuse + holder,Fusing of voltage taps,,todo,high breaking capacity; rating TBD
+ENC1,1,Insulated enclosure,Front-end box,,todo,double insulated; size TBD
+PSU1,1,230V/5V supply,Box power (if not from USB),,undecided,see issue: box power source
+ISO1,1,USB isolator,Optional galvanic isolation of USB link,,idea,ADuM3160/ADuM4160 based
+CBL1,1,Shielded USB cable + ferrites,Link box <-> uConsole,,todo,
+POC1,1,PZEM-004T v3,Proof of concept single-phase meter,,ordered,
+POC2,1,CP2102 USB-UART,Proof of concept interface,,ordered,

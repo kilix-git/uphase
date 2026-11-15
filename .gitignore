@@ -1,0 +1,56 @@
+# --- KiCad ---
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+*.kicad_prl
+*.sch-bak
+*.bck
+*.bak
+*~
+_autosave-*
+\#auto_saved_files\#
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+~*.lck
+*.lck
+# Fabrication outputs (regenerate from the design; commit release zips deliberately with -f)
+gerbers/
+fab/
+production/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# --- Pico SDK / CMake builds ---
+firmware/**/build/
+firmware/**/build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+*.uf2
+*.elf
+*.elf.map
+firmware/**/*.bin
+firmware/**/*.hex
+*.dis
+compile_commands.json
+.cache/
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
