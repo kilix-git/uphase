@@ -10,6 +10,8 @@ Licence: Beerware (see [LICENSE](../LICENSE)).
 
 ## pzemlyzer-poc
 
+**Status: complete.** Tested on the uConsole with a PZEM-004T v3 and a CP2102.
+
 Proof of concept: reads a PZEM-004T v3 over a CP2102 USB-UART (Modbus RTU) and
 does all kinds of neat things with it. At first it was a simple program that
 wrote the readings directly to stdout (pzem.py, still usable); I expanded it into quite a nice mains

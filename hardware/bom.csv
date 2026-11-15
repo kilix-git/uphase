@@ -10,5 +10,5 @@ ENC1,1,Insulated enclosure,Front-end box,,todo,double insulated; size TBD
 PSU1,1,230V/5V supply,Box power (if not from USB),,undecided,see issue: box power source
 ISO1,1,USB isolator,Optional galvanic isolation of USB link,,idea,ADuM3160/ADuM4160 based
 CBL1,1,Shielded USB cable + ferrites,Link box <-> uConsole,,todo,
-POC1,1,PZEM-004T v3,Proof of concept single-phase meter,,ordered,
-POC2,1,CP2102 USB-UART,Proof of concept interface,,ordered,
+POC1,1,PZEM-004T v3,Proof of concept single-phase meter,,have,built and tested; v0.1 done
+POC2,1,CP2102 USB-UART,Proof of concept interface,,have,built and tested; v0.1 done

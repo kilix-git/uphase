@@ -47,7 +47,7 @@ Milestones are tagged in git with the names above when they are reached.
 | Iron-core split CTs | Current sensing | Clamp around insulated conductors. Rogowski coils may come later. |
 | 230V/9V mains transformers (3x) | Voltage sensing | Small PCB transformers; still to be tested. |
 | Insulated enclosure | Houses PiHat, Pico and transformers | One cable to the uConsole. Power source still open (uConsole USB or separate 230V/5V supply). |
-| PZEM-004T + CP2102 | Proof of concept only | Single-phase; on order. |
+| PZEM-004T + CP2102 | Proof of concept only | Single-phase; built, tested and working with pzemlyzer (`v0.1-pzem-poc` done). |
 
 The full parts list lives in [hardware/bom.csv](hardware/bom.csv).
 
