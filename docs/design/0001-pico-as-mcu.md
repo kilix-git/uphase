@@ -1,7 +1,8 @@
-# 0001 - Raspberry Pi Pico as front-end MCU
+# 0001 - Raspberry Pi Pico 2 as front-end MCU
 
 - **Status:** Accepted
 - **Date:** 2026-11-06
+- **Updated:** 2026-11-15 (variant chosen: Pico 2)
 
 ## Context
 
@@ -15,8 +16,20 @@ uConsole.
 
 ## Decision
 
-Use a Raspberry Pi Pico in the front-end box. It reads the ATM90E36 over SPI
-and talks to the uConsole over USB.
+Use a Raspberry Pi Pico 2 (RP2350) in the front-end box. It reads the
+ATM90E36 over SPI and talks to the uConsole over USB.
+
+### Why the Pico 2 rather than the original Pico (RP2040)
+
+Added 2026-11-15, before any Pico was bought.
+
+- **More memory:** 520KB RAM and 4MB flash instead of 264KB and 2MB. That
+  leaves room for buffering, calibration data and possible on-board recording
+  later.
+- **Hardware floating point** (Cortex-M33 FPU), useful for scaling,
+  calibration and averaging on the Pico.
+- **Same board size, pinout and SDK**, at almost the same price. Everything
+  below applies to both.
 
 ## Reasons
 

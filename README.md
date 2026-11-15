@@ -43,7 +43,7 @@ Milestones are tagged in git with the names above when they are reached.
 |---|---|---|
 | Clockwork uConsole | Host and display | Raspberry Pi CM5 8GB Lite, Rex's Debian 12 Bookworm lite image (kernel 6.12). The Trixie 7.1.4 lite image failed to boot. |
 | IPEM PiHat Lite (ATM90E36) | 3-phase metering front end | Voltage, current, power, energy, harmonics. |
-| Raspberry Pi Pico | Front-end MCU | Drives the ATM90E36 over SPI, talks to the uConsole over USB. |
+| Raspberry Pi Pico 2 | Front-end MCU | Drives the ATM90E36 over SPI, talks to the uConsole over USB. |
 | Iron-core split CTs | Current sensing | Clamp around insulated conductors. Rogowski coils may come later. |
 | 230V/9V mains transformers (3x) | Voltage sensing | Small PCB transformers; still to be tested. |
 | Insulated enclosure | Houses PiHat, Pico and transformers | One cable to the uConsole. Power source still open (uConsole USB or separate 230V/5V supply). |
