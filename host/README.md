@@ -44,5 +44,5 @@ Features of the software:
 - allows data logging, exports all data to CSV file
 - logger can be fully autonomous, user is able to choose interval, start time, end time, which data to save (U, I, f, PF, P)
 - when choosing interval, for example 100s, data is saved to the CSV file once per 100s, three values are stored - max value (out of those 100 measurements), min value and average of all measured values, so no important data is lost
-- there is an option to calibrate the software, if you need to do that, max allowed is ±20%. In my case, there was no need to do any calibration, the pzemlyzer is accurate to ±1%, measured against a certified and calibrated Metrel 3309.
+- there is an option to calibrate the software, if you need to do that, max allowed is ±20%. In my case, there was no need to do any calibration, the pzemlyzer is accurate to within ~2%, measured against a certified and calibrated Metrel 3309.
 - you can also choose the number of turns around the CT, 1 means direct conductor, 2 means one loop
