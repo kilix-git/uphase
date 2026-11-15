@@ -1,9 +1,9 @@
 # 3-phase power analyzer (uConsole)
 
-A DIY 3-phase power analyzer for industrial use. A small insulated front-end box
+A DIY 3-phase power analyzer for general use. A small insulated front-end box
 measures the three phases with an ATM90E36 metering IC driven by a Raspberry Pi
 Pico, and sends the results over one cable to a Clockwork uConsole, which acts
-as host and display.
+as host, display, recorder.
 
 This repository is the single place for progress, ideas, measurements and
 decisions. When the project is finished it is meant to double as a build guide.
@@ -18,14 +18,17 @@ decisions. When the project is finished it is meant to double as a build guide.
 
 ## Status
 
-Early stage (November 2026). Hardware is being collected; nothing is measuring
-yet. See the [journal](docs/journal/) for details.
+Early stage (November 2026). The proof of concept works and measures: a
+PZEM-004T + CP2102 single-phase analyzer with a terminal program running on the
+uConsole, written in Python. It is called pzemlyzer, see
+[host/pzemlyzer-poc/](host/pzemlyzer-poc/). The 3-phase hardware is being
+collected. See the [journal](docs/journal/) for details.
 
 ## Roadmap
 
 | Milestone | Goal | Status |
 |---|---|---|
-| `v0.1-pzem-poc` | Proof of concept: read a single-phase PZEM-004T over a CP2102 USB-UART on the uConsole and show the values. | PZEM-004T + CP2102 on order; reader script ready in [host/pzem-poc/](host/pzem-poc/) |
+| `v0.1-pzem-poc` | Proof of concept: read a single-phase PZEM-004T over a CP2102 USB-UART on the uConsole and show the values. | Done, software available in [host/pzemlyzer-poc/](host/pzemlyzer-poc/) |
 | `v0.2-pihat-alive` | ATM90E36 on the IPEM PiHat Lite talks to the Pico over SPI; raw voltage/current registers read back on the bench (safe low-voltage source first). | Not started |
 | `v0.3-pico-usb-link` | Pico streams measurements to the uConsole over the wired link with a defined protocol; host shows live values. | Not started |
 
