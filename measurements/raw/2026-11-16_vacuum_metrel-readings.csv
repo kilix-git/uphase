@@ -1,0 +1,12 @@
+# Metrel MI3309 readings, read by hand from the display; time = when the reading reached the logger session (PZEM matched to the ~5 s before)
+n,time,metrel_s_kva,metrel_i_a
+1,18:51:21,0.68,2.80
+2,18:52:03,0.70,2.87
+3,18:52:35,0.72,2.98
+4,18:52:58,0.73,3.00
+5,18:53:30,0.75,3.08
+6,18:53:58,0.75,3.10
+7,18:54:29,0.64,2.64
+8,18:55:16,0.62,2.56
+9,18:55:50,0.60,2.46
+10,18:56:20,0.58,2.38
